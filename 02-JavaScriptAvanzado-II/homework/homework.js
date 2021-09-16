@@ -9,6 +9,7 @@ function counter() {
  
   var count = 0;
   function countUp() {
+
     count ++;
     return count;
   }
@@ -60,6 +61,7 @@ function getNombre(){
  // Escribir código sin modificar lo que ya se encuentra escrito arriba para poder llamar al método getNombre primero para obtener el nombre del instructor y luego para obtener el nombre del alumno.
 // Modificar los undefined por el código correspondiente en cada caso
 // Pista, tenes que bindear el this!
+
 getNombreInstructor = getNombre.bind(instructor);
 getNombreAlumno = getNombre.bind(alumno);
 
